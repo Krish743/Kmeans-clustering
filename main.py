@@ -1,6 +1,6 @@
 from sklearn.datasets import make_blobs
 import matplotlib.pyplot as plt
-from knn import KMeans
+from KNN.Kmeans import KMeans
 
 centorids = [(-5,-5), (5,5), (1,1), (-5,6)]
 cluster_std=[1,1,1,1]
